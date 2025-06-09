@@ -23,13 +23,14 @@ Sau IEND có chuỗi bắt đầu bằng 'PK\x03\x04' => dấu hiệu của file
 Giải nén ra được file: secret.gz
 
 Có thể dùng binwalk, nhưng ở đây do đang dùng win nên mình dùng python:
-`with open("chall.png", "rb") as f:
+```
+with open("chall.png", "rb") as f:
     data = f.read()
 
 start = data.find(b"PK\x03\x04")
 with open("hidden.zip", "wb") as f:
     f.write(data[start:])
-``
+```
 ---
 
 Bước 3: File GZ bị mã hóa

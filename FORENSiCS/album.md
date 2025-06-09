@@ -55,7 +55,8 @@ This gave us back a WAV file named `recovered_flag.wav`.
 ---
 
 ## Step 3: Spectrogram Analysis
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/50c5e26a-a229-4a1f-811a-5dba1f0c0dcc)
+
 
 Dùng gpt phân tích bằng phương pháp Spectrogram.
 

@@ -41,7 +41,8 @@ Khi giải nén file secret.gz, yêu cầu nhập mật khẩu.
 Bước 4: Tìm mật khẩu ẩn trong metadata
 
 Dùng Python trích xuất các chuỗi có thể đọc từ file PNG:
-`import re
+```
+import re
 import base64
 
 # Đọc toàn bộ file PNG dạng nhị phân
@@ -75,7 +76,7 @@ if password_b64:
         print("⚠️ Lỗi khi giải mã base64:", e)
 else:
     print("❌ Không tìm thấy mật khẩu trong file.")
-`
+```
 Tìm thấy:
 
 %iTXtPassword

@@ -1,4 +1,4 @@
-# 🕵️‍♂️ TJCTF 2024 – Forensics: `make-groups`
+# 🕵️‍♂️ TJCTF 2024 – Misc: `make-groups`
 
 **Category:** Misc
 ![image](https://github.com/user-attachments/assets/47102bdc-b7bd-405e-9a82-1579bf1ef1d6)
